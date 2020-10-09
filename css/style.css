@@ -1,6 +1,11 @@
+/* for all pages */
+
 body {
     background-image: url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg');
 }
+
+
+/* home.html */
 
 .jumbotron {
     background-image: url('https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__340.jpg');
@@ -12,8 +17,18 @@ body {
     margin: auto;
 }
 
+
+/* about.html */
+
 .card {
     min-width: 15em;
+    border-radius: 1em;
+    border: 0;
+}
+
+.card-body {
+    background-color: rgb(0, 139, 139);
+    background-color: rgba(0, 139, 139, 0.5);
 }
 
 .first {
@@ -21,6 +36,17 @@ body {
     background-size: 100% 100%;
 }
 
+
+/* contact.html */
+
 textarea {
     resize: none;
+}
+
+
+/* surprise :)  */
+
+a,
+.check {
+    cursor: url(../img/too237.cur), auto;
 }
