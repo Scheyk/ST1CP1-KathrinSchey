@@ -73,6 +73,9 @@ a,
     cursor: url(../img/too237.cur), auto;
 }
 
+
+/* text decoration for about.html and home.html */
+
 sub,
 .purposes {
     text-decoration: underline;
