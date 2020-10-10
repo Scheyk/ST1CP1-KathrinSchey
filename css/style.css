@@ -17,13 +17,18 @@ body {
     margin: auto;
 }
 
+.home {
+    font-family: 'Dancing Script', cursive;
+}
+
 
 /* about.html */
 
 .card {
     min-width: 15em;
     border-radius: 1em;
-    border: 0;
+    border: 0.3em solid blueviolet;
+    box-shadow: 0.5em 0 1em blueviolet, -0.5em 0 1em blueviolet;
 }
 
 .card-body {
@@ -36,8 +41,25 @@ body {
     background-size: 100% 100%;
 }
 
+.font {
+    font-family: 'Chilanka', cursive;
+}
+
 
 /* contact.html */
+
+h1 {
+    font-family: 'Piazzolla', serif;
+}
+
+.form {
+    width: 30em;
+    margin: auto;
+    background-color: #0228BB;
+    border-radius: 1em;
+    border: 0.3em solid blueviolet;
+    box-shadow: 0.5em 0 1em blueviolet, -0.5em 0 1em blueviolet;
+}
 
 textarea {
     resize: none;
@@ -49,4 +71,9 @@ textarea {
 a,
 .check {
     cursor: url(../img/too237.cur), auto;
+}
+
+sub,
+.purposes {
+    text-decoration: underline;
 }
